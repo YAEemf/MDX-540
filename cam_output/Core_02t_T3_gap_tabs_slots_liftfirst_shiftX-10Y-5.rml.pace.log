@@ -1,0 +1,11 @@
+05:35:58 file Core_02t_T3_gap_tabs_slots_liftfirst_shiftX-10Y-5.rml: 48700 lines, 912191 B, est 137.3 min
+05:35:58 SENT piece 1/10 lines 0-5278 (100016 B, 14.5 min) job 12
+05:35:58 progress line 392/48700 (0.8%), done 1.3/137.3 min, buffered 791 s, match d=0.00
+05:36:04 no path match (pos user (66.81, 58.45, 32.26), best d=77.52) - holding
+05:36:24 no path match (pos user (68.75, 36.46, -14.08), best d=3.96) - holding
+05:36:34 no path match (pos user (53.07, 18.0, -14.1), best d=11.92) - holding
+05:37:04 no path match (pos user (13.37, 58.8, -14.16), best d=54.91) - holding
+05:37:34 no path match (pos user (69.6, 49.87, -14.22), best d=7.30) - holding
+05:37:39 progress line 48418/48700 (99.4%), done 133.9/137.3 min, buffered -7161 s, match d=0.07
+05:37:44 no path match (pos user (60.9, 22.13, -14.22), best d=15.88) - holding
+05:38:14 no path match (pos user (20.6, 69.15, -14.22), best d=52.39) - holding

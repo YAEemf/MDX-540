@@ -1,0 +1,48 @@
+08:10:06 file Core_02s_T3_slots_from17_base_shiftX-10Y-5.rml: 22103 lines, 411739 B, est 69.5 min
+08:10:06 start position (user) (86.0, 45.0, 2.0) pieces already sent 0
+08:10:06 SENT piece 1/5 lines 0-5372 (100007 B, 14.9 min) job 21
+08:10:16 no path match (pos user (31.17, 37.7, 30.03), best d=19.66) - holding
+08:10:21 progress line 11/22103 (0.0%), done 0.1/69.5 min, buffered 99888 B / 888 s, d=0.00
+08:12:23 progress line 90/22103 (0.4%), done 2.1/69.5 min, buffered 98441 B / 768 s, d=0.00
+08:14:24 progress line 169/22103 (0.8%), done 4.1/69.5 min, buffered 97023 B / 647 s, d=0.00
+08:16:26 progress line 248/22103 (1.1%), done 6.1/69.5 min, buffered 95594 B / 527 s, d=0.01
+08:18:28 progress line 327/22103 (1.5%), done 8.1/69.5 min, buffered 94141 B / 406 s, d=0.01
+08:20:29 progress line 585/22103 (2.6%), done 10.1/69.5 min, buffered 89455 B / 285 s, d=0.00
+08:21:05 SENT piece 2/5 lines 5373-10736 (100003 B, 11.7 min) job 22
+08:21:05   buffered after send 178748 B
+08:22:31 progress line 2623/22103 (11.9%), done 12.2/69.5 min, buffered 151401 B / 867 s, d=0.00
+08:24:33 progress line 4646/22103 (21.0%), done 14.2/69.5 min, buffered 113797 B / 747 s, d=0.01
+08:26:24 SENT piece 3/5 lines 10737-16110 (100017 B, 22.6 min) job 23
+08:26:24   buffered after send 178969 B
+08:26:34 progress line 6697/22103 (30.3%), done 16.2/69.5 min, buffered 175720 B / 1986 s, d=0.00
+08:28:37 progress line 8742/22103 (39.6%), done 18.2/69.5 min, buffered 137684 B / 1864 s, d=0.00
+08:30:39 progress line 10490/22103 (47.5%), done 20.3/69.5 min, buffered 104565 B / 1742 s, d=0.00
+08:32:40 progress line 10566/22103 (47.8%), done 22.3/69.5 min, buffered 103138 B / 1621 s, d=0.00
+08:34:42 progress line 10645/22103 (48.2%), done 24.3/69.5 min, buffered 101691 B / 1500 s, d=0.00
+08:36:43 progress line 10724/22103 (48.5%), done 26.3/69.5 min, buffered 100245 B / 1379 s, d=0.00
+08:38:45 progress line 10803/22103 (48.9%), done 28.3/69.5 min, buffered 98798 B / 1258 s, d=0.01
+08:40:47 progress line 10883/22103 (49.2%), done 30.3/69.5 min, buffered 97323 B / 1136 s, d=0.00
+08:42:48 progress line 10962/22103 (49.6%), done 32.4/69.5 min, buffered 95859 B / 1015 s, d=0.01
+08:44:50 progress line 11037/22103 (49.9%), done 34.4/69.5 min, buffered 94461 B / 895 s, d=0.01
+08:46:51 progress line 11117/22103 (50.3%), done 36.4/69.5 min, buffered 92996 B / 773 s, d=0.01
+08:48:53 progress line 11196/22103 (50.7%), done 38.4/69.5 min, buffered 91549 B / 652 s, d=0.00
+08:50:54 progress line 11275/22103 (51.0%), done 40.4/69.5 min, buffered 90099 B / 532 s, d=0.00
+09:02:17 file Core_02s_T3_slots_from17_base_shiftX-10Y-5.rml: 22103 lines, 411739 B, est 69.5 min
+09:02:17 start position (user) (60.129999999999995, 18.53, -14.919999999999987) pieces already sent 3
+09:02:17 takeover: located at line 16110 (d=0.00)
+09:02:17 progress line 16110/22103 (72.9%), done 49.3/69.5 min, buffered 0 B / 0 s, d=0.00
+09:02:17 SENT piece 4/5 lines 16111-21464 (100018 B, 5.3 min) job 24
+09:02:17   buffered after send 100018 B
+09:02:23 SENT piece 5/5 lines 21465-22102 (11694 B, 14.9 min) job 25
+09:02:23   buffered after send 110211 B
+09:04:20 progress line 18169/22103 (82.2%), done 51.3/69.5 min, buffered 73466 B / 1092 s, d=0.00
+09:06:21 progress line 20194/22103 (91.4%), done 53.3/69.5 min, buffered 35824 B / 971 s, d=0.00
+09:08:23 progress line 21548/22103 (97.5%), done 55.4/69.5 min, buffered 10193 B / 849 s, d=0.00
+09:10:25 progress line 21627/22103 (97.8%), done 57.4/69.5 min, buffered 8729 B / 727 s, d=0.00
+09:12:26 progress line 21702/22103 (98.2%), done 59.4/69.5 min, buffered 7322 B / 607 s, d=0.00
+09:14:28 progress line 21781/22103 (98.5%), done 61.4/69.5 min, buffered 5876 B / 487 s, d=0.01
+09:16:29 progress line 21861/22103 (98.9%), done 63.4/69.5 min, buffered 4410 B / 364 s, d=0.00
+09:18:31 progress line 21940/22103 (99.3%), done 65.4/69.5 min, buffered 2964 B / 244 s, d=0.00
+09:20:33 progress line 22019/22103 (99.6%), done 67.5/69.5 min, buffered 1505 B / 123 s, d=0.01
+09:22:34 progress line 22092/22103 (100.0%), done 69.4/69.5 min, buffered 130 B / 6 s, d=0.00
+09:22:39 reached end of file
