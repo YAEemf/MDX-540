@@ -1,0 +1,405 @@
+{
+  "pair_clearance": [
+    {
+      "parts": [
+        1,
+        2
+      ],
+      "projected_gap_mm": 5.924881648722052,
+      "projected_overlap_mm2": 0.0,
+      "exact_solid_gap_mm": 5.925659255718174,
+      "exact_overlap_mm3": 0.0
+    },
+    {
+      "parts": [
+        1,
+        3
+      ],
+      "projected_gap_mm": 10.599306519369547,
+      "projected_overlap_mm2": 0.0,
+      "exact_solid_gap_mm": 10.599164219881622,
+      "exact_overlap_mm3": 0.0
+    },
+    {
+      "parts": [
+        2,
+        3
+      ],
+      "projected_gap_mm": 4.158283918538554,
+      "projected_overlap_mm2": 0.0,
+      "exact_solid_gap_mm": 4.158387538827864,
+      "exact_overlap_mm3": 0.0
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "bounds_A": [
+        18.877429279586522,
+        4.341249549572979,
+        -10.00000000000031,
+        199.21402367781707,
+        190.34124954957304,
+        1.0658141036401503e-14
+      ],
+      "edge_margins_mm": {
+        "left": 18.877429279586522,
+        "right": 193.78597632218293,
+        "front": 4.341249549572979,
+        "back": 129.65875045042696
+      },
+      "area_A_top": 14517.5997431054,
+      "area_B_top": 15226.963084174002,
+      "B_roof_over_A_relief_mm2": 709.3633410766369,
+      "outside_stock_mm3": 0.0
+    },
+    {
+      "id": 2,
+      "bounds_A": [
+        113.6185195951872,
+        133.80448855383247,
+        -10.000000000000062,
+        299.6185195951872,
+        315.6058482077713,
+        1.4210854715202004e-13
+      ],
+      "edge_margins_mm": {
+        "left": 113.6185195951872,
+        "right": 93.38148040481278,
+        "front": 133.80448855383247,
+        "back": 4.3941517922286835
+      },
+      "area_A_top": 14517.599743105398,
+      "area_B_top": 15226.96308417402,
+      "B_roof_over_A_relief_mm2": 709.3633410766364,
+      "outside_stock_mm3": 0.0
+    },
+    {
+      "id": 3,
+      "bounds_A": [
+        209.78529218944004,
+        1.8970002311051815,
+        -9.999999999999911,
+        390.88124178643193,
+        187.8970002311052,
+        3.907985046680551e-13
+      ],
+      "edge_margins_mm": {
+        "left": 209.78529218944004,
+        "right": 2.118758213568043,
+        "front": 1.8970002311051815,
+        "back": 132.1029997688948
+      },
+      "area_A_top": 14517.599743104616,
+      "area_B_top": 15226.96308417404,
+      "B_roof_over_A_relief_mm2": 709.3633410766369,
+      "outside_stock_mm3": 0.0
+    }
+  ],
+  "tools": {
+    "6.0": [
+      {
+        "part": 1,
+        "nominal_centerline_length_mm": 1021.3341426898094,
+        "neighbor_gouge_area_mm2": 0.19818252576043774,
+        "unsafe_centerline_length_mm": 2.5852508805502428,
+        "safe_fragments": 2,
+        "swept_bounds": [
+          12.857621140482074,
+          -1.6787262618409198,
+          205.2338318169215,
+          196.36122536098694
+        ],
+        "sweep_outside_stock_mm2": 28.34047201097045
+      },
+      {
+        "part": 2,
+        "nominal_centerline_length_mm": 1021.3341505488243,
+        "neighbor_gouge_area_mm2": 7.107244616145919,
+        "unsafe_centerline_length_mm": 12.056464597495015,
+        "safe_fragments": 3,
+        "swept_bounds": [
+          107.59891107330859,
+          127.78488470111431,
+          305.63812811706583,
+          321.62545206048947
+        ],
+        "sweep_outside_stock_mm2": 12.427567560581885
+      },
+      {
+        "part": 3,
+        "nominal_centerline_length_mm": 1021.3339289659124,
+        "neighbor_gouge_area_mm2": 16.060359815569523,
+        "unsafe_centerline_length_mm": 11.013398849636012,
+        "safe_fragments": 2,
+        "swept_bounds": [
+          203.7656897987493,
+          -4.122889822750173,
+          396.9008441771227,
+          193.91689028496052
+        ],
+        "sweep_outside_stock_mm2": 168.663321488912
+      }
+    ],
+    "2.0": [
+      {
+        "part": 1,
+        "nominal_centerline_length_mm": 1013.6031042850774,
+        "neighbor_gouge_area_mm2": 0.0,
+        "unsafe_centerline_length_mm": 0.0,
+        "safe_fragments": 1,
+        "swept_bounds": [
+          16.857494285474793,
+          2.321257719227887,
+          201.2339586719288,
+          192.36124137991814
+        ],
+        "sweep_outside_stock_mm2": 0.0
+      },
+      {
+        "part": 2,
+        "nominal_centerline_length_mm": 1013.6031059416039,
+        "neighbor_gouge_area_mm2": 0.0,
+        "unsafe_centerline_length_mm": 0.0,
+        "safe_fragments": 1,
+        "swept_bounds": [
+          111.59890858806156,
+          131.78479430022475,
+          301.63813060231286,
+          317.62554246137904
+        ],
+        "sweep_outside_stock_mm2": 0.0
+      },
+      {
+        "part": 3,
+        "nominal_centerline_length_mm": 1013.6031046945889,
+        "neighbor_gouge_area_mm2": 0.0,
+        "unsafe_centerline_length_mm": 0.0,
+        "safe_fragments": 1,
+        "swept_bounds": [
+          207.76560025368482,
+          -0.1228984535343477,
+          392.9009337221872,
+          189.9168989157447
+        ],
+        "sweep_outside_stock_mm2": 0.7868994551834785
+      }
+    ],
+    "1.0": [
+      {
+        "part": 1,
+        "nominal_centerline_length_mm": 1012.2534564152787,
+        "neighbor_gouge_area_mm2": 0.0,
+        "unsafe_centerline_length_mm": 0.0,
+        "safe_fragments": 1,
+        "swept_bounds": [
+          17.857462571722976,
+          3.321253714495089,
+          200.2339903856806,
+          191.3612453846509
+        ],
+        "sweep_outside_stock_mm2": 0.0
+      },
+      {
+        "part": 2,
+        "nominal_centerline_length_mm": 1012.2534560897167,
+        "neighbor_gouge_area_mm2": 0.0,
+        "unsafe_centerline_length_mm": 0.0,
+        "safe_fragments": 1,
+        "swept_bounds": [
+          112.5989079667498,
+          132.78477170000238,
+          300.6381312236246,
+          316.62556506160143
+        ],
+        "sweep_outside_stock_mm2": 0.0
+      },
+      {
+        "part": 3,
+        "nominal_centerline_length_mm": 1012.2534553259583,
+        "neighbor_gouge_area_mm2": 0.0,
+        "unsafe_centerline_length_mm": 0.0,
+        "safe_fragments": 1,
+        "swept_bounds": [
+          208.7655778674187,
+          0.8770993887696087,
+          391.9009561084533,
+          188.91690107344075
+        ],
+        "sweep_outside_stock_mm2": 0.0
+      }
+    ]
+  },
+  "clamp_pads": [
+    {
+      "A_center": [
+        10,
+        10
+      ],
+      "B_center": [
+        10,
+        310
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 28.715493584608073
+    },
+    {
+      "A_center": [
+        10,
+        160
+      ],
+      "B_center": [
+        10,
+        160
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 16.54629212672851
+    },
+    {
+      "A_center": [
+        10,
+        230
+      ],
+      "B_center": [
+        10,
+        90
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 58.142785190861794
+    },
+    {
+      "A_center": [
+        10,
+        300
+      ],
+      "B_center": [
+        10,
+        20
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 108.81116001179355
+    },
+    {
+      "A_center": [
+        80,
+        310
+      ],
+      "B_center": [
+        80,
+        10
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 45.36693860771691
+    },
+    {
+      "A_center": [
+        150,
+        310
+      ],
+      "B_center": [
+        150,
+        10
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 11.524956188225614
+    },
+    {
+      "A_center": [
+        190,
+        10
+      ],
+      "B_center": [
+        190,
+        310
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 12.277316383394782
+    },
+    {
+      "A_center": [
+        270,
+        310
+      ],
+      "B_center": [
+        270,
+        10
+      ],
+      "size": [
+        12,
+        12
+      ],
+      "D6_sweep_clearance_mm": 12.829558240455583
+    }
+  ],
+  "polyline_deflection_mm": 0.002,
+  "clearance_margin_mm": 0.02,
+  "scrap_components_after_full_D6_slots_mm2": [
+    28331.641355929187,
+    18948.30570023561,
+    6800.019386588946,
+    3097.6388993905066,
+    1596.5009199132974,
+    787.5870305629858,
+    694.9358484433595,
+    610.0260712162944,
+    196.72294710471306,
+    121.46766943052393,
+    121.23496686372171
+  ],
+  "registration_candidates_A": [
+    [
+      10,
+      10
+    ],
+    [
+      10,
+      160
+    ],
+    [
+      10,
+      230
+    ],
+    [
+      10,
+      300
+    ],
+    [
+      80,
+      310
+    ],
+    [
+      150,
+      310
+    ],
+    [
+      190,
+      10
+    ],
+    [
+      270,
+      310
+    ]
+  ],
+  "simulation_status": "Geometry only; no depth toolpath, tabs, shank or holder simulation"
+}

@@ -1,0 +1,12 @@
+No,Setup,Operation,Tool,Target_depth_mm,RPM,RC,Feed_mm_min,Axial_step_max_mm,Radial_step_max_mm,Stock_to_leave_mm,Notes
+01,A_bottom_up,3D rough bottom reliefs,D6 flat,-6,5040,6,250,0.2,1.0,0.2,Helical or outside ramp entry; preserve upper 4mm roof and frame
+02,A_bottom_up,Rest rough small corners,D1 square,-6,12000,15,80,0.03,0.2,0.05,Measured flute/neck/holder required; R0.8 features
+03,A_bottom_up,3D finish R3 and transition surfaces,D2 ball,-6,12000,15,150,0.1,0.1,0,Use actual 3D model and ball center compensation; no axisymmetric cam.drop
+04,FLIP,Re-register and support machined underside,NONE,,,,,,,,Flip Y to 320-Y; re-probe XYZ and tool lengths
+05,B_top_up,Helical pocket D3.1 holes x40 total,D2 ball,-11,12000,15,150,0.1,,0,Full ball diameter at stock bottom; periodic retract and chip evacuation; no straight plunge
+06a,B_top_up,Helical rough D6.2 holes x4 total,D2 ball,-11,12000,15,150,0.1,0.4,0.1,Clear centers; no loose slugs
+06b,B_top_up,Finish D6.2 holes and pocket D12.2 x2 total,D6 flat,-10.4,5040,6,180,0.2,1.0,0,D6.2 finish after pilot clearing; do not helix R0.1 through solid stock
+07a,B_top_up,Outer rough leaving bottom 1mm,D6 flat,-9,5040,6,180,0.2,1.0,0.2,Climb external CCW; verify entire holder sweep
+07b,B_top_up,Rest rough and finish outer fine corners,D1 square,-9,12000,15,80,0.03,0.2,0,Keep bottom web; full fine-feature material removal before finish
+08a,B_top_up,Final tabbed cutout coarse boundary,D6 flat,-10.4,5040,6,180,0.2,,0,4 tabs per part: width2.5 thickness0.4; preserve tabs through all later passes
+08b,B_top_up,Final tabbed cutout fine residuals if required,D1 square,-10.4,12000,15,80,0.03,0.2,0,Separate file from D6; preserve same tabs; no later work after tab removal

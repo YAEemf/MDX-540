@@ -1,0 +1,13 @@
+No,Setup,Operation,Tool,RPM,RC,Feed_mm_min,Ap_max_mm,Ae_max_mm,Depth_or_limit_mm,Notes
+01,A_reliefs_up,Relief rough,D6 flat,5040,6,250,0.2,1.0,6,Protect outside-frame top1mm using protected_frame_A_reference.step; do not open outside perimeter
+02,A_reliefs_up,Rest rough R0.8 corners,D1 square,12000,15,80,0.03,0.2,6,Respect measured neck and flute dimensions; no straight plunge
+03,A_reliefs_up,R3 and transition finish,D2 ball,12000,15,150,0.1,0.1,6,True 3D finish in Fusion; protect frame and tab root material
+04,FLIP,Re-register complete blank,NONE,,,,,,,Keep full outside frame attached; re-probe and model actual clamps in B
+05,B_flat_up,D3.1 holes x60,D2 ball,12000,15,150,0.1,,-11,Helical pocket; full ball diameter at bottom; retract and split for chip evacuation
+06a,B_flat_up,D6.2 holes x6 pilot,D2 ball,12000,15,150,0.1,0.4,-11,Pocket centers fully; leave no slug
+06b,B_flat_up,D6.2 finish x6 and D12.2 pocket x3,D6 flat,5040,6,180,0.2,1.0,-10.4,Do not full-depth helix D6 in D6.2 solid material
+07a,B_flat_up,Collision-clipped outside rough,D6 flat,5040,6,180,0.2,1.0,-9,Original contour has neighbor collisions; use only allowed fragments; retain bottom1mm frame web
+07b,B_flat_up,Outside narrow-area rest rough,D2 ball,12000,15,150,0.1,0.4,-9,Do not rough through bottom web; rest from actual previous stock; remove corners separately with D1
+07c,B_flat_up,Corner rest and prepare flat final-cut floor,D1 square,12000,15,80,0.03,0.2,-9,Rest from actual D6/D2 ball stock; do not start deep in an uncleared ball-bottom remnant
+08,B_flat_up,Final narrow cut with 12 tabs,D1 square,12000,15,80,0.03,,-10.4,Protect tabs_original.csv width2.5 thickness0.4; disable full-frame keepout only for this narrow cut; no later D6 or D2 exterior pass
+09,AFTER_STOP,Manual tab removal,NONE,,,,,,,After all machining and spindle stop remove work from fixture then cut tabs and deburr

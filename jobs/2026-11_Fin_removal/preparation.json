@@ -1,0 +1,1627 @@
+{
+  "status": "OFFLINE_PREPARATION_ONLY_NO_RML",
+  "material": "A6063",
+  "transform": "X=x+196.5; Y=160-y; Z=-z-75; fins UP, original z=10 face DOWN",
+  "input_sha256": {
+    "model\\393_320_10_Fin.step": "e8a32e2fa03902ea47d6b62dbbdd51d04d437eaf8ccdc10737dc8701f5205ac3",
+    "model\\393_320_10.step": "67ec2df4437fc2d28b30ae94af4321fc000834ea49b7ed91b65155ff24e3323b",
+    "ツール在庫.xlsx": "2e701e7fed00aefa8ee3011885e0a08d9a8b831c42a034955000309ff0786578"
+  },
+  "stock_bounds": [
+    0.0,
+    -1.2246467991473533e-15,
+    -85.00000000000003,
+    393.0,
+    320.0,
+    1.4210854715202004e-14
+  ],
+  "target_bounds": [
+    0.0,
+    -1.2246467991473533e-15,
+    -85.00000000000003,
+    393.0,
+    320.0,
+    -74.99999999999997
+  ],
+  "fins_xy_bounds": [
+    [
+      0.0,
+      21.0,
+      393.0,
+      26.0
+    ],
+    [
+      0.0,
+      38.0625,
+      393.0,
+      43.0625
+    ],
+    [
+      0.0,
+      55.125,
+      393.0,
+      60.125
+    ],
+    [
+      0.0,
+      72.1875,
+      393.0,
+      77.1875
+    ],
+    [
+      0.0,
+      89.25,
+      393.0,
+      94.25
+    ],
+    [
+      0.0,
+      106.3125,
+      393.0,
+      111.3125
+    ],
+    [
+      0.0,
+      123.375,
+      393.0,
+      128.375
+    ],
+    [
+      0.0,
+      140.4375,
+      393.0,
+      145.4375
+    ],
+    [
+      0.0,
+      157.5,
+      393.0,
+      162.5
+    ],
+    [
+      0.0,
+      174.5625,
+      393.0,
+      179.5625
+    ],
+    [
+      0.0,
+      191.625,
+      393.0,
+      196.625
+    ],
+    [
+      0.0,
+      208.6875,
+      393.0,
+      213.6875
+    ],
+    [
+      0.0,
+      225.75,
+      393.0,
+      230.75
+    ],
+    [
+      0.0,
+      242.8125,
+      393.0,
+      247.8125
+    ],
+    [
+      0.0,
+      259.875,
+      393.0,
+      264.875
+    ],
+    [
+      0.0,
+      276.9375,
+      393.0,
+      281.9375
+    ],
+    [
+      0.0,
+      294.0,
+      393.0,
+      299.0
+    ]
+  ],
+  "fin_count": 17,
+  "fin_width": 5.0,
+  "fin_height": 75.0,
+  "fin_pitch": 17.0625,
+  "gap": 12.0625,
+  "edge_clamp_lands_y": [
+    [
+      0,
+      21
+    ],
+    [
+      299,
+      320
+    ]
+  ],
+  "remove_volume_mm3": 2505375.0,
+  "rough_allowance_mm": 0.2,
+  "final_finish_status": "NOT GENERATED: measure base-face height, warp, zero uncertainty; then set shallow finish without cutting below protected plate",
+  "rpm": 5040,
+  "RC": 6,
+  "inventory_raw": [
+    {
+      "sheet": "Sheet1",
+      "row": 1,
+      "values": [
+        null,
+        "基本的にどれも鉄・ステンレス対応",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 2,
+      "values": [
+        null,
+        "型番",
+        "分類",
+        "有効長さ",
+        "刃径",
+        "首下"
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 3,
+      "values": [
+        null,
+        "MHR230 1X14",
+        "ロングネック",
+        "14mm",
+        "1mm",
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 4,
+      "values": [
+        null,
+        "不明",
+        "フラットエンドミル",
+        "20mm",
+        "6mm",
+        "20mm"
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 5,
+      "values": [
+        null,
+        "不明",
+        "ボールミル",
+        "3mm",
+        "3mm",
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 6,
+      "values": [
+        null,
+        "2cem-p-2.5d-1",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 7,
+      "values": [
+        null,
+        "crnbem-1-20-4",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 8,
+      "values": [
+        null,
+        "2cem-p-2.5d-6",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 9,
+      "values": [
+        null,
+        "08-00501-00100",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 10,
+      "values": [
+        null,
+        "AC40-TLNE2010-14",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "row": 11,
+      "values": [
+        null,
+        "PRB2.0-21",
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "trial_preview": {
+    "file": "trial_D6_ap0p05_PREVIEW.csv",
+    "checks": {
+      "uncovered_fin_area_mm2": 0.0,
+      "rapid_cut_segments": 0,
+      "maximum_layer_ap_mm": 0.05,
+      "cutter_sweep_bounds": [
+        -8.0,
+        20.5,
+        401.0,
+        299.5
+      ],
+      "min_tip_z_mm": -0.05,
+      "plate_gouge_volume_mm3": 0.0,
+      "rough_residual_volume_mm3": 2503704.75,
+      "scope": "Exact straight-line cutter envelopes; excludes holder, clamps, force, deflection, runout and datum errors"
+    },
+    "cam_est_minutes": 38.14908333333331,
+    "note": "Standalone first-layer trial from untouched stock. Production preview also begins at untouched stock; regenerate from measured completed height before continuing, do not concatenate blindly."
+  },
+  "tool_subsets": [
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 5205612.5,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 5205612.5,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.005012562893380035,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.005012562893380035,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "D3 ball (row 5)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.003337045290423335,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 5205612.5,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.005012562893380035,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.003337045290423335,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.003337045290423335,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": null,
+      "cutting_minutes_lower_bound": null,
+      "inaccessible_mm3": null,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "ball_floor_cusp_mm": 0.003337045290423335,
+      "status": "Not selected: ball raster leaves scallops; no flat floor finishing tool"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "MHR230 D1 (row 3)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "AC40 D1 square (row 10; dimensions from machine records)",
+      "cutting_minutes_lower_bound": 5339498.125,
+      "scans_per_layer": 425,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 832897.9999999999,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 2494,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    },
+    {
+      "tools": [
+        "D6 flat (xlsx row 4)",
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "used": "D6 flat (xlsx row 4)",
+      "cutting_minutes_lower_bound": 14234.855555555556,
+      "scans_per_layer": 17,
+      "ideal_any_mixed_strategy_lower_bound_minutes": 13881.633333333333,
+      "comparison_scope": "Flat-only path estimate, plus optimistic MRR bound for any mixed rough/rest strategy; mixed ball-rough paths not generated",
+      "layers": 374,
+      "inaccessible_mm3": 0.0,
+      "unused_tools": [
+        "AC40 D1 square (row 10; dimensions from machine records)",
+        "MHR230 D1 (row 3)",
+        "PRB D2 ball (row 11; dimensions from machine records)",
+        "CRNBEM D2 ball (row 7; dimensions from machine records)",
+        "D3 ball (row 5)"
+      ],
+      "status": "Flat floor accessible; all conditions provisional"
+    }
+  ],
+  "path_scenarios": [
+    {
+      "name": "rough_D6_alternating_PREVIEW",
+      "ap": 0.2,
+      "feed": 180.0,
+      "ae": 1.0,
+      "centered": true,
+      "bidirectional": true,
+      "layers": 374,
+      "move_count": 25808,
+      "cam_est_minutes": 14295.785388891607,
+      "exporter_speed_est_minutes": 14417.436166672636,
+      "cutting_feed_minutes": 14234.855555555556,
+      "cutting_feed_air_fraction": 0.02481389578163772,
+      "checks": {
+        "uncovered_fin_area_mm2": 0.0,
+        "rapid_cut_segments": 0,
+        "maximum_layer_ap_mm": 0.20000000000000995,
+        "cutter_sweep_bounds": [
+          -8.0,
+          20.5,
+          401.0,
+          299.5
+        ],
+        "min_tip_z_mm": -74.8,
+        "plate_gouge_volume_mm3": 0.0,
+        "rough_residual_volume_mm3": 6681.000000000095,
+        "scope": "Exact straight-line cutter envelopes; excludes holder, clamps, force, deflection, runout and datum errors"
+      },
+      "representative_layer_simulation": {
+        "grid_mm": 0.5,
+        "report": [
+          [
+            "representative_layer",
+            0.2,
+            [],
+            0,
+            {
+              "180.0": 0.2
+            },
+            0.9,
+            37.2
+          ]
+        ],
+        "fin_cells_left_above_layer": 0,
+        "note": "Representative complete layer only; exact all-layer verification stored separately. No fixture/holder simulation."
+      }
+    },
+    {
+      "name": "rough_D6_centerline_PREVIEW",
+      "ap": 0.2,
+      "feed": 180.0,
+      "ae": 1.0,
+      "centered": true,
+      "layers": 374,
+      "move_count": 25808,
+      "cam_est_minutes": 14960.047605865839,
+      "exporter_speed_est_minutes": 16406.7890527939,
+      "cutting_feed_minutes": 14234.855555555556,
+      "cutting_feed_air_fraction": 0.02481389578163772,
+      "checks": {
+        "uncovered_fin_area_mm2": 0.0,
+        "rapid_cut_segments": 0,
+        "maximum_layer_ap_mm": 0.20000000000000995,
+        "cutter_sweep_bounds": [
+          -8.0,
+          20.5,
+          401.0,
+          299.5
+        ],
+        "min_tip_z_mm": -74.8,
+        "plate_gouge_volume_mm3": 0.0,
+        "rough_residual_volume_mm3": 6681.000000000095,
+        "scope": "Exact straight-line cutter envelopes; excludes holder, clamps, force, deflection, runout and datum errors"
+      },
+      "representative_layer_simulation": {
+        "grid_mm": 0.5,
+        "report": [
+          [
+            "representative_layer",
+            0.2,
+            [],
+            0,
+            {
+              "180.0": 0.2
+            },
+            0.9,
+            37.2
+          ]
+        ],
+        "fin_cells_left_above_layer": 0,
+        "note": "Representative complete layer only; exact all-layer verification stored separately. No fixture/holder simulation."
+      }
+    },
+    {
+      "name": "rough_D6_side_steps_PREVIEW",
+      "ap": 0.2,
+      "feed": 250.0,
+      "ae": 1.0,
+      "centered": false,
+      "layers": 374,
+      "move_count": 127536,
+      "cam_est_minutes": 54834.5918631254,
+      "exporter_speed_est_minutes": 61993.90443900278,
+      "cutting_feed_minutes": 51245.48,
+      "cutting_feed_air_fraction": 0.02481389578163772,
+      "checks": {
+        "uncovered_fin_area_mm2": 0.0,
+        "rapid_cut_segments": 0,
+        "maximum_layer_ap_mm": 0.20000000000000995,
+        "cutter_sweep_bounds": [
+          -8.0,
+          16.0,
+          401.0,
+          299.0
+        ],
+        "min_tip_z_mm": -74.8,
+        "plate_gouge_volume_mm3": 0.0,
+        "rough_residual_volume_mm3": 6681.000000000095,
+        "scope": "Exact straight-line cutter envelopes; excludes holder, clamps, force, deflection, runout and datum errors"
+      },
+      "representative_layer_simulation": {
+        "grid_mm": 0.5,
+        "report": [
+          [
+            "representative_layer",
+            0.2,
+            [],
+            0,
+            {
+              "250.0": 0.2
+            },
+            11.7,
+            125.3
+          ]
+        ],
+        "fin_cells_left_above_layer": 0,
+        "note": "Representative complete layer only; exact all-layer verification stored separately. No fixture/holder simulation."
+      }
+    }
+  ],
+  "unknown_dimension_tools_excluded": [
+    "2cem-p-2.5d-1",
+    "2cem-p-2.5d-6",
+    "08-00501-00100"
+  ],
+  "execution_blockers": [
+    "Clamp solid positions/heights and holder dimensions not measured",
+    "Machine coordinate travel, initial approach, ATC and exporter Z+40 moves unverified",
+    "A6063 full-fin-width cutting conditions not trialled; D6 wear/runout/flutes to inspect",
+    "Plate height/warp/zero uncertainty required before final allowance removal"
+  ],
+  "cut_order": "EVERY fin each layer; never lower one fin all 75 mm while adjacent fins remain tall",
+  "trial": "Same first whole layer at ap 0.05 mm and F180/RC6; inspect chips, adhesion, vibration; only then increase ap up to 0.2. No feed reduction alone as a cure for rubbing."
+}
